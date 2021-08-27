@@ -54,7 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @McLinkz",
+                caption = f"{file_name} \n @moviez_CorneR_updates_channel \n @All_in_1_by_moviez_corner \n @updates_channel_by_mc \n @Main_channel_by_MC \n @MC_ARCHIVE_1 \n POWERED BY @McLinkz ",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
